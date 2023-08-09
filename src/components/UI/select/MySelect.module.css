@@ -1,0 +1,15 @@
+.selct {
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #cccdde;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 6px;
+    cursor: pointer;
+}
+
+.selct option {
+    cursor: pointer;
+}

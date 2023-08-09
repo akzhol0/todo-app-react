@@ -1,0 +1,15 @@
+.btn {
+    width: 100px;
+    height: 35px;
+    background: #0066ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.2s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:active {
+    transform: scale(1.05);
+}

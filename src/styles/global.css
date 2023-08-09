@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700,800,900);  
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background: #18191A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.main-text {
+    font-size: 40px;
+    color: #e4e2e2;
+    cursor: default;
+}
+
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 0 0;
+}
+
+.items {
+    width: 700px;
+    min-height: 30px;
+    background: #ecedf6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.item:first-child {
+    margin: 0;
+}
+
+.item {
+    width: 95%;
+    height: 70px;
+    background: #fff;
+    margin: 10px 0 0 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 0 15px;
+}
+
+.inp-checkbox { 
+    width: 25px;
+    height: 25px;
+    transition: all 0.5s;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.rigth-block {
+    display: flex;
+    gap: 10px;
+    padding: 0 15px 0 0;
+}
+
+.item-btns {
+    background: #eeeeee;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url('/src/img/trash.svg');
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.edit {
+    background-image: url('/src/img/edit.svg');
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.item-btns:active {
+    transform: scale(1.05);
+}
+
+.item-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-name strong {
+    font-size: 16px;
+    font-weight: 500;
+    color: #474747;
+    cursor: default;
+}
+
+.item-name small {
+    font-size: 12px;
+    cursor: default;
+}
